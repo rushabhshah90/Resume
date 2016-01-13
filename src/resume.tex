@@ -1,0 +1,40 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\renewcommand{\familydefault}{\sfdefault} %font-family default serif
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}
+\AtBeginDocument{\recomputelengths}
+\firstname{Rushabh}
+\familyname{Shah}
+\mobile{+91 9892644645}
+% Personal Information not Shown on GitHub
+\email{rushabh.shah90@outlook.com} 
+\address{Malad(W)}{Mumbai}{India}
+\newcommand{\Myinput}[2]{\vspace{#1}{\input{#2}}}
+
+\AfterPreamble{\hypersetup{
+		colorlinks=true,
+		pdfauthor={Rushabh Shah},
+		pdftitle={Resume for Rushabh Shah},
+		pdfsubject={Detailed Resume for Vallabh},
+		pdftoolbar=true,
+		pdfmenubar=true,
+		pdfstartview={FitH},
+		pdfkeywords={Resume,Rushabh Shah},
+		pdfcreator={Rushabh Shah},
+		pdfproducer={Rushabh Shah},
+		urlcolor=blue,
+		linkcolor=blue,
+		citecolor=blue,
+		anchorcolor=blue
+	}}
+	
+\begin{document}
+	\makecvtitle
+	\Myinput{0pt}{education-content.tex}
+	\Myinput{0pt}{experience-content.tex}
+	\Myinput{0pt}{project-content.tex}
+	\Myinput{0pt}{personal-content.tex}
+\end{document}
